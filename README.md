@@ -8,7 +8,7 @@ USA bike share system
 
 ### Description
 I' ve explored data related to the bike share system of three USA major cities: Chicago, New York City and Washington.
-I've answered some interesting questions through statistical calculations
+I've answered some interesting questions through statistical calculations (for example about the age and the gender of the users)
 
 ### Files used
 chicago.csv
