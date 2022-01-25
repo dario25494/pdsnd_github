@@ -128,9 +128,9 @@ def station_stats(df):
     print('the most common used Start Station is {} with a number of times of {}'.format(most_commonly_used_start_station, max_one))
 
     # TO DO: display most commonly used end station
-    max_2=df['End Station'].value_counts().max()
-    most_commonly_used_end_station = df['End Station'].value_counts()[df['End Station'].value_counts()==max_2].index[0]
-    print('the most common used End Station is {} with a number of times of {}'.format(most_commonly_used_end_station, max_2))
+    max_two=df['End Station'].value_counts().max()
+    most_commonly_used_end_station = df['End Station'].value_counts()[df['End Station'].value_counts()==max_two].index[0]
+    print('the most common used End Station is {} with a number of times of {}'.format(most_commonly_used_end_station, max_two))
 
     # TO DO: display most frequent combination of start station and end station trip
     df['combination']=df['Start Station']+ '-' +df['End Station']
